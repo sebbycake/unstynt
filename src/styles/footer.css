@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.footer {
+    margin-top: 30px;
+    /* background-color: rgb(7, 35, 64); */
+    background-color:#293462;
+}
+
+.footer li {
+    text-align: center;
+    list-style: none;
+    line-height: 5;
+}
+
+.footer li a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
