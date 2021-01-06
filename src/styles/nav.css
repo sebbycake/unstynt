@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&family=Oxygen&display=swap');
 
 .logo {
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Handlee', cursive;
     margin-left: 20px;
 }
@@ -102,10 +102,7 @@ nav {
 
     .nav-links a {
         font-size: 28px;
-    }
-
-    .nav-links a:hover {
-        color: #666666;  
+        color: #fff;
     }
 
     .nav-links a:after {

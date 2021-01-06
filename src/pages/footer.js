@@ -2,11 +2,8 @@ import React from "react";
 
 const Footer = () => (
     <div className="footer">
-         <li>
-            <a href="#">Our Team</a>
-        </li>
         <li>
-            <a href="#">Careers</a>
+            <a href="#">Our Team</a>
         </li>
         <li>
             <a href="#">LinkedIn</a>
