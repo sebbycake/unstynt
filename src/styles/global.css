@@ -4,11 +4,16 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Akkurat Pro", Arial, sans-serif
+    font-family: "Akkurat Pro", Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: Metropolis, Arial, sans-serif;
+}
+
+.outer-container {
+    height: 88vh;
 }
 
 .inner-container {
@@ -16,7 +21,6 @@ h1, h2, h3, h4, h5 {
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .inner-container h1 {
@@ -34,7 +38,7 @@ h1, h2, h3, h4, h5 {
     border: none;
     padding: 16px 30px;
     color: #fff;
-    width: 90%;
+    width: 100%;
     margin-top: 20px;
     border-radius: 4px;
     font-family: "Akkurat Pro", Arial, sans-serif;
@@ -51,8 +55,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .content {
-    margin-top: 30px;
     margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .heading {
@@ -116,11 +120,11 @@ h1, h2, h3, h4, h5 {
 
     .outer-container {
         display: flex;
-        align-items: center;
     }
-
+    
     .inner-container {
         margin-left: 80px;
+        margin-top: 60px;
     }
 
     .inner-container h1 {
@@ -135,10 +139,20 @@ h1, h2, h3, h4, h5 {
     .content {
         margin-left: 80px;
         margin-bottom: 60px;
-        width: 50%;
+        width: 80%;
+    }
+    
+    .content p {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 50px;
     }
 
     .content-hiw {
+        width: 70%;
+        margin: 0 auto;
         display: flex;
         align-items: center;
     }
@@ -148,8 +162,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .content-hiw p {
-        width: 50%;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .responsive-img-hiw {
@@ -157,5 +170,28 @@ h1, h2, h3, h4, h5 {
         height: auto;
     }
     
+
+}
+
+
+
+@media (min-width: 1920px) {
+
+    .inner-container h1 {
+        width: 65%;
+        font-size: 90px;
+    }
+    
+    .heading {
+        font-size: 55px;
+    }
+    
+    .content p {
+       font-size: 22px;
+    }
+
+    .content-hiw p {
+        font-size: 30px;
+    }
 
 }

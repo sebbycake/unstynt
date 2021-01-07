@@ -34,7 +34,7 @@ const IndexPage = () => (
         <h2 className="heading">Find the best talent.</h2>
         <div className="divider"></div>
         <p>
-          Junior University students are hungry for opportunities that could extend their skill sets in their preferred domains by finding work employability.
+          Junior University students are excited about extending their skill sets in their preferred domains by finding work employability.
           We, being students from the National University of Singapore, can leverage on our extensive network to find
           YOU the best talents from the leading university in Asia. We assure to find you promising talents
           that would cater to your company's needs and requirements.
@@ -62,6 +62,7 @@ const IndexPage = () => (
 
     <section>
       <h1 className="content-hiw-header">How It Works</h1>
+      
       <div className="content-hiw">
         <img className="responsive-img-hiw" src={upload} />
         <p>1. Submit the job description and other details to us <Link to="/post-a-job">here</Link>.</p>
