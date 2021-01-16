@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 const JobForm = () => (
     <Layout>
         <div className="form-container">
-            <form action="" netlify>
+            <form name="job-listing" data-netlify="true">
                 <h2>Company's Profile</h2>
                 <label for="company_name">Name of Company</label>
                 <input type="text" id="company_name" name="company_name" placeholder="e.g. Mr. Coconut" required />
