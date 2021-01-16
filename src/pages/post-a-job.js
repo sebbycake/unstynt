@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 const JobForm = () => (
     <Layout>
         <div className="form-container">
-            <form action="">
+            <form action="" netlify>
                 <h2>Company's Profile</h2>
                 <label for="company_name">Name of Company</label>
                 <input type="text" id="company_name" name="company_name" placeholder="e.g. Mr. Coconut" required />
@@ -40,7 +40,7 @@ const JobForm = () => (
                 </select>
 
                 <input type="checkbox" id="terms" name="terms" value="terms" required />
-                <label for="terms">I have read and agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
+                <label for="terms"> I have read and agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
                     Policy</a>.</label><br /><br />
 
                 <input type="submit" value="Submit" />

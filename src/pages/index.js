@@ -5,6 +5,7 @@ import search from "../../static/images/search.png"
 import mail from "../../static/images/mail.png"
 import search_talent from "../../static/images/search_talent.png"
 import upload from "../../static/images/upload.png"
+import choose from "../../static/images/choose.png"
 
 const IndexPage = () => (
   <Layout>
@@ -13,8 +14,7 @@ const IndexPage = () => (
       <div className="outer-container">
         <div className="inner-container">
           <h1>
-            Grow your business with the top
-            student talents today.
+            Grow your business with the top student talents today.
           </h1>
           <br />
           <h3>Trusted by over 100 SMEs nationwide</h3>
@@ -31,30 +31,25 @@ const IndexPage = () => (
 
     <section>
       <div className="content">
-        <h2 className="heading">Find the best talent.</h2>
+        <h2 className="heading">Acquire the best talent.</h2>
         <div className="divider"></div>
         <p>
-          Junior University students are excited about extending their skill sets in their preferred domains by finding work employability.
-          We, being students from the National University of Singapore, can leverage on our extensive network to find
-          YOU the best talents from the leading university in Asia. We assure to find you promising talents
-          that would cater to your company's needs and requirements.
+          We personally sieve out the best student talents from NUS for you. Remain calm as they passionately work on the project(s) you assign to them.
         </p>
       </div>
       <div className="content">
-        <h2 className="heading">Scale the business the way YOU want it.</h2>
+        <h2 className="heading">Diversify your talent pool.</h2>
         <div className="divider"></div>
         <p>
-          By connecting you to bright talents across 16 faculties of  NUS, YOU have the flexibility to choose how you wish to scale your business.
-          From tech, to business, to arts- YOU will be exposed to various talents across a myriad of different domains!
+          By connecting you with the brightest talents across 16 faculties of NUS, you have the flexibility to choose how you wish to scale your business.
+          From Tech, Business, to the Arts - you will be engaging with various talents across a myriad of domains!
         </p>
       </div>
       <div className="content">
-        <h2 className="heading">Provide learning opportunities.</h2>
+        <h2 className="heading">Scale your business like never before.</h2>
         <div className="divider"></div>
         <p>
-          Students are hungry for learning opportunities and real-world working experience.
-          They want to make practical impact to your business and you are a great source for that.
-          We are here to connect.
+          Discover new opportunities that you never thought of. Conduct market research and extract new insights about your customers.
         </p>
       </div>
     </section>
@@ -62,22 +57,29 @@ const IndexPage = () => (
 
     <section>
       <h1 className="content-hiw-header">How It Works</h1>
-      
+
       <div className="content-hiw">
         <img className="responsive-img-hiw" src={upload} />
-        <p>1. Submit the job description and other details to us <Link to="/post-a-job">here</Link>.</p>
+        <p>1. Submit the job description and all relevant details <Link to="/post-a-job">here</Link>.</p>
       </div>
 
       <div className="content-hiw">
         <img className="responsive-img-hiw" src={search_talent} />
-        <p>2. We will start sourcing for student talents based on your submitted requirements.</p>
+        <p>2. We will source for student talents based on your requirements.</p>
       </div>
 
       <div className="content-hiw">
         <img className="responsive-img-hiw" src={mail} />
-        <p>3. Emails will be sent to you with interested students' resumes.</p>
+        <p>3. We will send you our shortlisted students' resumes and contact details.</p>
+      </div>
+
+      <div className="content-hiw">
+        <img className="responsive-img-hiw" src={choose} />
+        <p>4. Choose who you like and get started!</p>
       </div>
     </section>
+
+    
 
   </Layout>
 )

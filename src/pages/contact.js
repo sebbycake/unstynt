@@ -3,12 +3,11 @@ import Layout from "../components/layout"
 
 const ContactPage = () => (
     <Layout>
-        <div class="content">
-            <h2 class="heading">Contact Us</h2>
-            <div class="divider"></div>
-            <p>
-                For any enquiries, please drop us a email at <a href="mailto:enquiries.stynt@gmail.com">enquiries.stynt@gmail.com</a>
-            </p>
+        <div className="contact-content">
+            <h1 className="contact-heading text-center">Contact Us</h1>
+            <p className="text-center">Don't hesitate to connect with us if you have any questions about unStynt.</p>
+            <h5>Email Us</h5>
+            <a href="mailto:support.unstynt@gmail.com">support.unstynt@gmail.com</a>
         </div>
     </Layout>
 )

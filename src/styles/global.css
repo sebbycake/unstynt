@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
 
 * {
     padding: 0;
@@ -10,6 +11,11 @@
 
 h1, h2, h3, h4, h5 {
     font-family: Metropolis, Arial, sans-serif;
+}
+
+a {
+    color: #5068a9;
+    text-decoration: none;
 }
 
 .outer-container {
@@ -116,6 +122,58 @@ h1, h2, h3, h4, h5 {
 
 
 
+/* about us */
+.text-center {
+    text-align: center;
+}
+
+.about-sub-heading {
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1f1f1f;
+}
+
+.about-heading, .contact-headng {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    color: #02143e;
+}
+
+.about-content, .contact-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.about-content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    font-family: Sunflower, sans-serif;
+}
+
+.contact-content h5 {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
 @media (min-width:468px) {
 
     .outer-container {
@@ -139,7 +197,7 @@ h1, h2, h3, h4, h5 {
     .content {
         margin-left: 80px;
         margin-bottom: 60px;
-        width: 80%;
+        width: 60%;
     }
     
     .content p {
@@ -170,6 +228,51 @@ h1, h2, h3, h4, h5 {
         height: auto;
     }
     
+
+    .about-sub-heading {
+        margin-top: 80px;
+        margin-bottom: 0px;
+        font-family: Ubuntu, Helvetica, sans-serif;
+        color: #1f1f1f;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .about-heading {
+        width: 70%;
+        margin: 0 auto;
+        font-family: Sunflower, sans-serif;
+        color: #02143e;
+        font-size: 60px;
+        line-height: 1.3em;
+        margin-bottom: 80px;
+    }
+
+    .contact-heading {
+        width: 70%;
+        margin: 0 auto;
+        font-family: Sunflower, sans-serif;
+        font-size: 60px;
+        line-height: 1.3em;
+        margin-bottom: 30px;
+    }
+
+    .about-content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        font-size: 20px;
+        width: 70%;
+        margin: 0 auto;
+        line-height: 1.6em;
+        margin-bottom: 40px;
+    }
+    
+    .contact-content h5 {
+        font-size: 30px;
+    }
 
 }
 
