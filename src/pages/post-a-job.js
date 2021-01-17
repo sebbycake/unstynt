@@ -34,16 +34,16 @@ const JobForm = () => (
 
                 <label for="period">Period</label>
                 <select id="period" name="period" required>
-                    <option value="three_months">3 months</option>
-                    <option value="six_months">6 months</option>
-                    <option value="flexible">Flexible</option>
+                    <option name="three_months" value="three_months">3 months</option>
+                    <option name="six_months" value="six_months">6 months</option>
+                    <option name="flexible" value="flexible">Flexible</option>
                 </select>
 
                 <input type="checkbox" id="terms" name="terms" value="terms" required />
                 <label for="terms"> I have read and agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
                     Policy</a>.</label><br /><br />
                 <div data-netlify-recaptcha="true"></div>
-                <input type="submit" value="Submit" />
+                <input type="submit" name="submit" value="Submit" />
             </form>
         </div>
     </Layout>
