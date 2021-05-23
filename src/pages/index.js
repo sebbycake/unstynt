@@ -17,9 +17,9 @@ const IndexPage = () => (
             Grow your business with the top student talents today.
           </h1>
           <br />
-          <h3>Trusted by over 100 SMEs nationwide</h3>
+          <h3>Connecting SMEs and students seamlessly</h3>
           <div className="btn-container">
-            <Link className="btn" to="/post-a-job">Get Started</Link>
+            <Link className="btn" to="/get-in-touch">Get Started</Link>
           </div>
         </div>
 
