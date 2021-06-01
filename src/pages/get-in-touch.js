@@ -11,9 +11,13 @@ const GetInTouchForm = () => (
         </Helmet>
 
         <div className="form-container">
-            <form name="get-in-touch" method="post" data-netlify="true" data-netlify-recaptcha="true" onSubmit="submit">
+            <form name="get-in-touch" method="post" data-netlify="true" netlify-honeypot="bot-field" onSubmit="submit">
 
                 <input type="hidden" name="form-name" value="get-in-touch"></input>
+
+                <p class="hidden">
+                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                </p>
 
                 <div>
                     <label htmlFor="name">Name <br />
@@ -32,8 +36,6 @@ const GetInTouchForm = () => (
                         <textarea name="message" rows="10" cols="70" required></textarea>
                     </label>
                 </div>
-
-                <div data-netlify-recaptcha="true"></div>
 
                 <button className="submit-btn" type="submit">Send Message</button>
             </form>
