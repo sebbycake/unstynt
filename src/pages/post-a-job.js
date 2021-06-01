@@ -43,6 +43,7 @@ const JobForm = () => (
                 <label for="terms"> I have read and agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
                     Policy</a>.</label><br /><br />
                 <div data-netlify-recaptcha="true"></div>
+                <input type="hidden" name="form-name" value="job-listing" />
                 <input type="submit" name="submit" value="Submit" />
             </form>
         </div>
