@@ -4,7 +4,9 @@ import Layout from "../components/layout";
 const JobForm = () => (
     <Layout>
         <div className="form-container">
-            <form name="job-listing" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form name="job-listing" method="POST" data-netlify="true" onSubmit="submit">
+                <input type="hidden" name="form-name" value="job-listing"/>
+
                 <h2>Company's Profile</h2>
                 <label for="company_name">Name of Company</label>
                 <input type="text" id="company_name" name="company_name" placeholder="e.g. Mr. Coconut" required />
@@ -42,9 +44,7 @@ const JobForm = () => (
                 <input type="checkbox" id="terms" name="terms" value="terms" required />
                 <label for="terms"> I have read and agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
                     Policy</a>.</label><br /><br />
-                <div data-netlify-recaptcha="true"></div>
-                <input type="hidden" name="form-name" value="job-listing" />
-                <input type="submit" name="submit" value="Submit" />
+                <button className="submit-btn" type="submit">Submit</button>
             </form>
         </div>
     </Layout>
