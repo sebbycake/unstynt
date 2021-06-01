@@ -1,14 +1,21 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 import search from "../../static/images/search.png"
 import mail from "../../static/images/mail.png"
 import search_talent from "../../static/images/search_talent.png"
 import upload from "../../static/images/upload.png"
 import choose from "../../static/images/choose.png"
 
+
 const IndexPage = () => (
   <Layout>
+
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>unStynt - Connecting SMEs and students seamlessly</title>
+    </Helmet>
 
     <section>
       <div className="outer-container">
@@ -79,7 +86,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    
+
 
   </Layout>
 )

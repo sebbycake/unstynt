@@ -1,32 +1,46 @@
 import React from "react"
 import Layout from "../components/layout";
+import { Helmet } from "react-helmet"
 
 const GetInTouchForm = () => (
     <Layout>
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Get In Touch | unStynt</title>
+        </Helmet>
+
         <div className="form-container">
-            <form name="job-listing" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form name="get-in-touch" method="post" data-netlify="true" data-netlify-recaptcha="true" onSubmit="submit">
 
-                <h2>Company's Profile</h2>
-                <label for="company_name">Name of Company</label>
-                <input type="text" id="company_name" name="company_name" placeholder="e.g. Mr. Coconut" required />
+                <input type="hidden" name="form-name" value="get-in-touch"></input>
 
-                <h2>Contact Details</h2>
-                <label for="contact_person">Contact Person</label>
-                <input type="text" id="contact_person" name="contact_person" placeholder="e.g. Simon" required />
+                <div>
+                    <label htmlFor="name">Name <br />
+                        <input id="name" type="text" name="name" required />
+                    </label>
+                </div>
 
-                <label for="contact_number">Contact Number</label>
-                <input type="text" id="job_title" name="job_title" placeholder="e.g. 98765432" required/>
+                <div>
+                    <label htmlFor="email">Email <br />
+                        <input id="email" type="email" name="email" required />
+                    </label>
+                </div>
 
+                <div>
+                    <label htmlFor="message">Message <br />
+                        <textarea name="message" rows="10" cols="70" required></textarea>
+                    </label>
+                </div>
 
-                <input type="checkbox" id="terms" name="terms" value="terms" required />
-                <label for="terms"> I have read and agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy
-                    Policy</a>.</label><br /><br />
                 <div data-netlify-recaptcha="true"></div>
-                <input type="submit" name="submit" value="Submit" />
 
+                <button className="submit-btn" type="submit">Send Message</button>
             </form>
         </div>
-    </Layout>
+
+
+    </Layout >
 )
 
 export default GetInTouchForm

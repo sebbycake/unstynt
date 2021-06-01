@@ -31,9 +31,6 @@ const Header = () => {
 
             <ul class="nav-links">
                 <li>
-                    <Link to="/post-a-job" onClick={handleNavBar}>Post Job Listing</Link>
-                </li>
-                <li>
                     <Link to="/about" onClick={handleNavBar}>About</Link>
                 </li>
                 <li>
