@@ -12,7 +12,9 @@ const GetInTouchForm = () => (
         </Helmet>
 
         <div className="form-container">
-            <h1 className="text-center">Get In Touch!</h1>
+            
+            <h1 className="text-center form-title">Get In Touch!</h1>
+
             <form name="get-in-touch" method="post" data-netlify="true" netlify-honeypot="bot-field" onSubmit="submit">
 
                 <input type="hidden" name="form-name" value="get-in-touch"></input>
@@ -28,7 +30,7 @@ const GetInTouchForm = () => (
                 </div>
 
                 <div>
-                    <label htmlFor="company_name">Company's Name
+                    <label htmlFor="company_name">Company Name
                         <input id="company_name" type="text" name="company_name" required />
                     </label>
                 </div>
@@ -51,7 +53,7 @@ const GetInTouchForm = () => (
                     </label>
                 </div>
 
-                <p>By submitting this application, you are agreeing to the site's <Link to="/privacy-policy">Privacy Policy</Link></p>
+                <p>By submitting this application, you are agreeing to the site's <Link to="/privacy-policy">Privacy Policy</Link>.</p>
                 <br/>
 
                 <button className="submit-btn" type="submit">Send Message</button>

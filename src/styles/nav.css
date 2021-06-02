@@ -64,7 +64,14 @@ nav {
     .logo {
         position: absolute;
         left: 2px;
+        margin-left: 20px;
     }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
 
     .burger {
         position: absolute;

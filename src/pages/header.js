@@ -24,18 +24,18 @@ const Header = () => {
 
     return (
         // <!-- navigation bar -->
-        <nav>
+        <nav className="sticky">
             <div class="logo">
                 <h1><Link to="/">unStynt</Link></h1>
             </div>
 
             <ul class="nav-links">
                 <li>
+                    <Link to="/get-in-touch" onClick={handleNavBar}>Get Started</Link>
+                </li>
+                <li>
                     <Link to="/about" onClick={handleNavBar}>About</Link>
                 </li>
-                {/* <li>
-                    <Link to="/contact" onClick={handleNavBar}>Contact Us</Link>
-                </li> */}
             </ul>
 
             <div class={`burger + ${isToggle}`} onClick={handleNavBar}>

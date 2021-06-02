@@ -26,7 +26,7 @@ const IndexPage = () => (
           <br />
           <h3>Connecting SMEs and students seamlessly</h3>
           <div className="btn-container">
-            <Link className="btn" to="/get-in-touch">Get Started</Link>
+            <Link className="btn" to="/get-in-touch">Learn More </Link>
           </div>
         </div>
 
