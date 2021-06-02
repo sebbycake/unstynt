@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         // <!-- navigation bar -->
-        <nav className="sticky">
+        <nav>
             <div class="logo">
                 <h1><Link to="/">unStynt</Link></h1>
             </div>

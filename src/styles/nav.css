@@ -67,12 +67,6 @@ nav {
         margin-left: 20px;
     }
 
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-
     .burger {
         position: absolute;
         right: 20px;
