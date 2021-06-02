@@ -33,9 +33,9 @@ const Header = () => {
                 <li>
                     <Link to="/about" onClick={handleNavBar}>About</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/contact" onClick={handleNavBar}>Contact Us</Link>
-                </li>
+                </li> */}
             </ul>
 
             <div class={`burger + ${isToggle}`} onClick={handleNavBar}>

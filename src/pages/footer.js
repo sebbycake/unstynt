@@ -3,13 +3,7 @@ import React from "react";
 const Footer = () => (
     <div className="footer">
         <li>
-            <a href="#">Our Team</a>
-        </li>
-        <li>
-            <a href="#">LinkedIn</a>
-        </li>
-        <li>
-            <a href="#">Facebook</a>
+            <a href="/about">Our Team</a>
         </li>
         <li>
             <a href="#">Instagram</a>

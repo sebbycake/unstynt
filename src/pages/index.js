@@ -38,25 +38,28 @@ const IndexPage = () => (
 
     <section>
       <div className="content">
-        <h2 className="heading">Acquire the best talent.</h2>
+        <h2 className="heading">Acquire the best talents for you.</h2>
         <div className="divider"></div>
         <p>
-          We personally sieve out the best student talents from NUS for you. Remain calm as they passionately work on the project(s) you assign to them.
+          We personally connect you to the best student talents across 16 different faculties of NUS. 
+          Remain calm as they passionately work on the project(s) you assign to them!
         </p>
       </div>
       <div className="content">
-        <h2 className="heading">Diversify your talent pool.</h2>
+        <h2 className="heading">Get the job done within hours.</h2>
         <div className="divider"></div>
         <p>
-          By connecting you with the brightest talents across 16 faculties of NUS, you have the flexibility to choose how you wish to scale your business.
-          From Tech, Business, to the Arts - you will be engaging with various talents across a myriad of domains!
+          48 hours - that's all we need to match you with right candidates based on your needs.
+          Our extensive and diversified network in NUS will guarantee fast turnaround time.
         </p>
       </div>
       <div className="content">
         <h2 className="heading">Scale your business like never before.</h2>
         <div className="divider"></div>
         <p>
-          Discover new opportunities that you never thought of. Conduct market research and extract new insights about your customers.
+          Discover new opportunities as we connect you to
+          creative individuals with fresh and novel perspectives to your business problems.
+          
         </p>
       </div>
     </section>
@@ -67,7 +70,7 @@ const IndexPage = () => (
 
       <div className="content-hiw">
         <img className="responsive-img-hiw" src={upload} />
-        <p>1. Submit the job description and all relevant details <Link to="/post-a-job">here</Link>.</p>
+        <p>1. Submit the job description and all relevant details.</p>
       </div>
 
       <div className="content-hiw">

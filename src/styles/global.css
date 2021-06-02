@@ -167,12 +167,15 @@ a {
 }
 
 
-
 .contact-content h5 {
     font-size: 16px;
     line-height: 1.2;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
 }
 
 
